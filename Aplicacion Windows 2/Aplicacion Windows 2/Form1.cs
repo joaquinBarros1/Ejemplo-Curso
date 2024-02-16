@@ -16,6 +16,8 @@ namespace Aplicación_Windows_2
         {
             InitializeComponent();
         }
+
+        //Comentario, ejemplo.
         private void tboxEdad_KeyPress(object sender, KeyPressEventArgs e)
         {
             if ((e.KeyChar < 48 || e.KeyChar > 59) && e.KeyChar != 8)
